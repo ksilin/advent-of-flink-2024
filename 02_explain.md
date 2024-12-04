@@ -2,7 +2,7 @@
 
 `EXPLAIN` is a table stakes troubleshooting and debugging tool for working with Flink SQL on Confluent Cloud. It shows 
 you the execution plan for queries you’ve written. Let’s take a look at windowed aggregation from Day 1:
-```
+```sql
 EXPLAIN SELECT
 window_time,
 AVG(CAST(view_time AS DOUBLE)) AS avg_viewtime    
@@ -31,7 +31,7 @@ Table: Foreground
 ```
 If in contrast, I would have forgotten to group by window_end (because why would I have to group on both start and end 
 of a window if one determines the other).
-```
+```sql
 EXPLAIN SELECT
 window_time,
 AVG(CAST(view_time AS DOUBLE)) AS avg_viewtime    
@@ -80,7 +80,7 @@ regular join. I will talk more about what expensive operators to look out for in
 day.
 With `EXPLAIN` you can also see if some intermediate results can be reused, which is particularly useful when working 
 with Statement Sets.
-```
+```sql
 CREATE TABLE `clicks_view_time_1m` (
 `window_time` TIMESTAMP(3) WITH LOCAL TIME ZONE NOT NULL,
 `avg_viewtime` DOUBLE NOT NULL
