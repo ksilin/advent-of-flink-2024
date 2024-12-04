@@ -8,3 +8,5 @@ interested.
 
 * [Advent of Flink - Day #1 `TYPEOF`](./01_typeof.md)
 * [Advent of Flink - Day #2 `EXPLAIN`](./02_explain.md)
+* [Advent of Flink - Day #3 Arrays](./03_arrays.md)
+* [Advent of Flink - Day #4 Views](./04_views.md)
