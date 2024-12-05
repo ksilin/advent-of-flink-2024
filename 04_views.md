@@ -64,5 +64,4 @@ queries by different users. This improves a layer of abstraction and improves ma
 expensive  view is used in many places, it may make more sense to use a materialized views (a.ka. a table in 
 CC Flink) to avoid redundant processing in all the queries that use the view.
 
-As always (so far), the examples in here are runnable out of the box on CC Flink and questions, remarks, corrections and 
-discussion are very welcome in the thread.**
+As always (so far), the examples in here are runnable out of the box on [Confluent Cloud](https://confluent.cloud).
