@@ -64,3 +64,5 @@ window_time               user_id url
 ```
 There is more to be said about arrays, e.g. in the context of nested `ROWs` and JSON strings, but I'll leave that to 
 another day.
+
+As always (so far), the examples in here are runnable out of the box on [Confluent Cloud](https://confluent.cloud).
