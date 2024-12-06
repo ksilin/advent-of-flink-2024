@@ -1,4 +1,4 @@
-# Advent of Flink - Day #4 State Time-To-Live
+# Advent of Flink - Day #6 State Time-To-Live
 
 Yesterday, I covered stateful stream processing a bit: you saw that many queries are stateful and that some queries
 lead to an ever-growing state, which will over time slow down the query and eventually bring it down. On of these 
