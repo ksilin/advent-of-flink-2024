@@ -76,14 +76,12 @@ per partition. During warmup - before the algorithm has seen 1000 messages
 out-of-orderness. The safety margin depends on the number of messages seen so
 far.*
 
-================================== =================================
-Number of Message                  Safety Margin
-================================== =================================
-1 - 250                            7 days
-251 - 500                          30s
-501 - 750                          10s
-751 - 1000                         1s
-================================== =================================
+| Number of Messages | Safetey Margin |
+|------------------- |----------------|
+| 1 - 250            |      7 days    |
+| 251 - 500          |      30s       |
+| 501 - 750          |      10s       |
+| 751 - 1000         |      1s        |
 
 *In effect, the algorithm doesn't provide a usable watermark before it has seen
 250 records per partition.*
