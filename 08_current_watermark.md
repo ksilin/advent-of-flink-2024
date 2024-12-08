@@ -1,4 +1,4 @@
-# Advent of Flink #8 - The Caveats of `CURRENT_WATERMARK()` 
+# Advent of Flink - Day #8 The Caveats of `CURRENT_WATERMARK()` 
 
 This is the second bit on watermarks. We continue where we left things off yesterday. As a reminder, we created a table 
 called `clicks_4_partitions` and changed the watermak strategy to a bounded out-of-orderness of ten seconds. 
