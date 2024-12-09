@@ -14,4 +14,4 @@ interested.
 * [Advent of Flink - Day #6 State Time-to-Live](./06_statettl.md)
 * [Advent of Flink - Day #7 `$rowtime` & `SOURCE_WATERMARK()`](./07_rowtime.md)
 * [Advent of Flink - Day #8 The Caveats of `CURRENT_WATERMARK()`](./08_current_watermark.md)
-* [Advent of Flink - Day #9 A final look at SOURCE_WATERMARK()](./09_source_watermark.md)
+* [Advent of Flink - Day #9 A final look at `SOURCE_WATERMARK()`](./09_source_watermark.md)
