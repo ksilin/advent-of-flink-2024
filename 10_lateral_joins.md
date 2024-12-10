@@ -1,4 +1,4 @@
-# Advent of Flink - Day #3 Lateral Joins
+# Advent of Flink - Day #10 Lateral Joins
 
 There is more to be said and more to write about event time and watermarks, but I need a break from this. So, today I 
 cover a more fun topic: lateral joins. 
