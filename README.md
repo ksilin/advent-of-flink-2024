@@ -16,3 +16,5 @@ interested.
 * [Advent of Flink - Day #8 The Caveats of `CURRENT_WATERMARK()`](./08_current_watermark.md)
 * [Advent of Flink - Day #9 A final look at `SOURCE_WATERMARK()`](./09_source_watermark.md)
 * [Advent of Flink - Day #10 Lateral Joins](./10_lateral_joins.md)
+* [Advent of Flink - Day #11 Custom Event Time Columns](./11_custom_event_time.md)
+* [Advent of Flink - Day #12 Why does Autopilot not scale up?](./12_autopilot.md)
