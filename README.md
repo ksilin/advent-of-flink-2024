@@ -18,3 +18,4 @@ interested.
 * [Advent of Flink - Day #10 Lateral Joins](./10_lateral_joins.md)
 * [Advent of Flink - Day #11 Custom Event Time Columns](./11_custom_event_time.md)
 * [Advent of Flink - Day #12 Why does Autopilot not scale up?](./12_autopilot.md)
+* [Advent of Flink - Day #13 `CASE WHEN`](./13_case.md)
