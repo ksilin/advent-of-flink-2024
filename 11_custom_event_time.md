@@ -54,4 +54,6 @@ SELECT * FROM clicks_with_click_time ORDER BY click_time_ts ASC;
 ```
 which would not have been possible without a watermark definition on it. Note, that the $rowtime column still exists and still holds the Kafka Message timestamp. It just doens’t serve as row/event time column anymore.
 
-That’s all for today. As always (so far), the examples in here are runnable out of the box on CC Flink and questions, remarks, corrections and discussion are very welcome in the thread.
+That’s all for today. As always (so far), the examples in here are runnable out of the box on [Confluent Cloud](https://confluent.cloud).
+
+
