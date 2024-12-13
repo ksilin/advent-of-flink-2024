@@ -53,4 +53,4 @@ window_time              count_low count_medium count_high
 2024-12-12T14:59:59.999Z 274       277          1940
 2024-12-12T15:00:59.999Z 362       330          2308
 ```
-And that's already it for today. 
+And that's already it for today. As always (so far), the examples in here are runnable out of the box on [Confluent Cloud](https://confluent.cloud).
