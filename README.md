@@ -20,3 +20,5 @@ interested.
 * [Advent of Flink - Day #12 Why does Autopilot not scale up?](./12_autopilot.md)
 * [Advent of Flink - Day #13 `CASE WHEN`](./13_case.md)
 * [Advent of Flink - Day #14 Late Data Handling](./14_late.md)
+* [Advent of Flink - Day #15 Nested Rows](./15_nested_rows.md)
+
