@@ -1,7 +1,7 @@
 # Advent of Flink - Day #15 Nested Rows
 
-We continue with (nested) ROWs. Nested rows are very common, because many schemas are nested to begin with. In addition, Avro Union, Protobuf oneOf, schema references and topics with (Topic)RecordNameStrategy are mapped to tables with nested rows. So, although, not
-So, let’s start by creating some nested rows:
+We continue with (nested) ROWs. Nested rows are very common, because many schemas are nested to begin with. In addition, Avro Union, Protobuf oneOf, schema references and topics with (Topic)RecordNameStrategy are mapped to tables with nested rows.
+So, let’s start by how to create to construct a `ROW`.
 ```sql
 SELECT 
   click_id, 
