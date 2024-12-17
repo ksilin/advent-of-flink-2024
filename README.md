@@ -22,4 +22,5 @@ interested.
 * [Advent of Flink - Day #14 Late Data Handling](./14_late.md)
 * [Advent of Flink - Day #15 Nested Rows](./15_nested_row.md)
 * [Advent of Flink - Day #16 Fun with `OVER` Aggregations](./16_over_alerting.md)
+* [Advent of Flink - Day #17 Reading & Writing Metadata Columns](./17_metadata.md)
 
