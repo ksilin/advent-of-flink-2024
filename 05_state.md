@@ -35,7 +35,7 @@ growing very quickly and the state per customer is small.
 
 ```sql
 SELECT * FROM `examples`.`marketplace`.`orders` AS o
-         INNER JOIN `examples`.`marketplace`.`customers` AS c ON o.customer_id = o.customer_id
+         INNER JOIN `examples`.`marketplace`.`customers` AS c ON o.customer_id = c.customer_id
 ```
 This join needs to materialize both tables `orders` and `customers` fully in state. This is because if a row in the 
 left-hand table (LHT) is updated, the operator needs to emit an updated match for with all matching rows in the 
