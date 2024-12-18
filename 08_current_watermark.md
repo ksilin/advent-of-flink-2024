@@ -29,7 +29,7 @@ watermarking in action.
 SELECT 
    $rowtime, 
    CURRENT_WATERMARK($rowtime) AS wm, 
-   TIMESTAMPDIFF($rowtime, CURRENT_WATERMARK(`$rowtime`), SECONDS) AS watermark_lag
+   TIMESTAMPDIFF(SECOND, $rowtime, CURRENT_WATERMARK(`$rowtime`)) AS watermark_lag
 FROM clicks;
 ```
 
