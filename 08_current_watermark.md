@@ -99,8 +99,8 @@ So, what do we learn from this for debugging with `CURRENT_WATERMARK`?
 1. `CURRENT_WATERMARK` is kind of unpredictable in reprocessing scenarios, but this is something I heard the engineering team is
    planning to address by aligning the watermark emission frequency to event time instead of processing time, i.e. 
    we would emit more frequent watermarks during re-processing
-2. `CURRENT_WATEMRARK` may be delayed up to 60 seconds when reading from multiple partitions
-3. `CURRENT_WATERMMAR` can still be extremely helpful to ensure that watermarks are progressing at all. It is often not
+2. `CURRENT_WATERMARK` may be delayed up to 60 seconds when reading from multiple partitions
+3. `CURRENT_WATERMARK` can still be extremely helpful to ensure that watermarks are progressing at all. It is often not
    so much the question of whether the watermark is lagging 30 or 180 seconds behind, but wether it is days or years 
    behind. 
 
