@@ -15,7 +15,7 @@ instead of a regular join.
 
 ```sql
 SELECT * FROM `examples`.`marketplace`.`orders` AS o
-         INNER JOIN `examples`.`marketplace`.`customers` FOR SYSTEM AS OF `$rowtime` AS c ON o.customer_id = c.customer_id
+         INNER JOIN `examples`.`marketplace`.`customers` FOR SYSTEM_TIME AS OF co`$rowtime` AS c ON o.customer_id = c.customer_id
 ```
 This changes the logic of the query. With a temporal table join, every order is enriched with the corresponding customer 
 information as of the time when the order happened (`$rowtime`). There is one output row for each `order`. When a row
